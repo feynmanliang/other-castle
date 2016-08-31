@@ -1,5 +1,7 @@
 #!/bin/sh
-xrandr --output LVDS1 --mode 1600x900 --pos 0x0 --rotate normal \
-  --output VGA1 --off \
-  --output DP1 --off \
-  --output HDMI1 --off 
+xrandr \
+  --dpi 167 \
+  --output DisplayPort-1 --off \
+  --output DisplayPort-0 --off \
+  --output eDP1 --mode 2880x1800 --pos 3840x360 --rotate normal --primary \
+  --output HDMI-0 --off
