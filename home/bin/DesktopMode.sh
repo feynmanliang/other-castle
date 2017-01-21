@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # change screen size
-~/.screenlayout/External1080p.sh
+~/.screenlayout/External4k.sh
 
 # i3
 # sed -i "9s/\(^[^#]\)/#\1/g
