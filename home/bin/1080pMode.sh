@@ -3,7 +3,7 @@
 killall compton
 
 # change screen size
-~/.screenlayout/External4k.sh
+~/.screenlayout/External1080p.sh
 
 # i3
 # sed -i "9s/\(^[^#]\)/#\1/g

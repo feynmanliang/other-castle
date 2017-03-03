@@ -1,5 +1,7 @@
 #!/bin/sh
 
+killall compton
+
 # change screen size
 ~/.screenlayout/LaptopOnly.sh
 
@@ -10,3 +12,6 @@
 
 # key-repeat and capslock<=>esc
 ~/bin/Speedswapper.sh
+
+compton &
+wallpaper.sh
