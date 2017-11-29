@@ -1,4 +1,4 @@
 #!/bin/sh
-xmodmap ~/.speedswapper # swap caps-lock/escape
+xmodmap ~/.speedswapper # remap caps-lock -> contorl
 
-xset r rate 180 40 # fast key repeat
+xset r rate 200 40 # fast key repeat
