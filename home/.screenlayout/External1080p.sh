@@ -1,5 +1,5 @@
 #!/bin/sh
 xrandr \
-  --output eDP --mode 2880x1800 \
-  --output HDMI-0 --primary --mode 1920x1080 --scale 1.75x1.75 --panning 3360x1890+2880+0 --right-of eDP \
-  --dpi 192
+  --output eDP --mode 1920x1200 --pos 0x0 \
+  --output HDMI-0 --primary --mode 1920x1080 --pos 1920x0 --scale 1x1 --right-of eDP \
+  --dpi 92
